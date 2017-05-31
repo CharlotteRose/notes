@@ -1,0 +1,19 @@
+read me 
+
+create a master module called _services_ that imports other class modules 
+which will be a topic|command - the class sructure for the topic/service 
+will allow each service/topic to have identifiable features 
+- logs
+- error codes
+- common commands 
+- command description 
+- configuration files 
+- selinux rules -> this is a maybe 
+
+Topics: ownership, file permissions, 
+Quiz methodology? 
+? flash card style? 
+? fill in the blank? 
+? guess the command ? 
+? recite description of command ?
+ 

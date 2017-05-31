@@ -8,7 +8,7 @@
 #    return multiply0( n - 1, a) + a; }     // n = 1 -> a, else the remaining n-1 cases are computed.
 
 # My Python interpretation
-#test 
+#test
 def getMultiplicand():  # gets and checks the value of the multiplicand
     multiplicand = input("Please enter the value for the multiplicand.\n")
     while checkInput(multiplicand) != True:
