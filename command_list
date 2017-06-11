@@ -1,0 +1,5 @@
+# intentions for parsiong man page 
+# EX: the groff macro file for the man command is located in the /etc/share/man/man7/man.7.gz
+# Ideas: 
+# 1 If not every man page for the file will be located in an equivalent directory (such as above - where the -
+#       like man -K - shows the file that will open for the man page contents 
