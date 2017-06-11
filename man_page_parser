@@ -1,0 +1,7 @@
+# author _scoots_
+#
+
+class man_page_parser(object):
+    def __init__(self, command_list, command_info):
+        self.asmFile = open(command_list, "r")
+        self.hackFile = open(command_info,'w')
