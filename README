@@ -16,4 +16,14 @@ Quiz methodology?
 ? fill in the blank? 
 ? guess the command ? 
 ? recite description of command ?
- 
+
+REFINED PLAN | Node model for "commands" and descriptions" 
+man -k lists man pages in format of:  man_page_name (n) 
+- the convenience of the command and the output provided is that we are able to see the numeral value for the gz file that will contain
+  the general information for the command 
+- this list out put will be written to a file 
+    man -k yum >> commands.txt
+- the resultant file will be parsed to create a dictionary in format of {command_name: ["description","int"]}  where the key is a singular
+  command and the values are a list of items, namely description and page
+- this fabulous dictionary - will provide the information needed to ascertain the man page which can the be parsed into {"option": "string"}
+- then this resultant dict will be randonly worked through for the learning quiz ^_^
